@@ -1,0 +1,144 @@
+ * {
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: normal;
+ }
+ header {
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     font-size: 15px;
+ }
+.square , .profilephoto , h5 {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-top: 11px;
+    margin-right: 17px;
+}
+.profilephoto {
+margin-right: 20px;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+header a:hover {
+    text-decoration: underline;
+}
+.square {
+    width: 21px;
+    height: 21px;
+    background-color: #5c5c5c;
+}
+.profilephoto img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+section {
+    justify-content: center;
+    display: flex;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    justify-content:flex-start;
+    align-items: center;
+    height: 485px;
+    width: 615px;
+}
+.container div {
+
+}
+.logo {
+    margin-bottom: 20px;
+}
+.search {
+    width: 100%;
+}
+.container .search input {
+    padding: 7px;
+    width: 100%;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #5c5c5c67;
+    border-width: 1px;
+    outline: none;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 25px;
+}
+.container .search input:hover {
+    box-shadow: 0px 0px 1.5px #5C5C5C;
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.button1 input , .button2 input {
+padding: 10px;
+font-size: 15px;
+background-color: #f8f9fa;
+border:0px solid black;
+border-radius: 2px;
+margin-left: 10px;
+height:37px;
+}
+.button1 input:hover , .button2 input:hover {
+    border: 1px solid rgba(0, 0, 0, 0.062);
+}
+.pt {
+    margin-top:20px ;
+    font-size: 13px;
+}
+.pt a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+.pt a:hover {
+    text-decoration:underline;
+}
+footer {
+    background-color: #f2f2f2;
+    color: #70757a;
+    font-size: 15px;
+}
+footer a {
+    text-decoration: none;
+    color: #70757a;
+}
+footer a:hover {
+    text-decoration:underline ;
+}
+.containerfooter{
+    margin-top: 8px;
+    height: 100px;
+    overflow: visible;
+}
+.country {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.menus {
+    display:flex;
+    justify-content: space-between;
+    height: 50%;
+    border-top: 1px solid #5c5c5c5b;
+    align-items: center;
+}
+.menu1 ul {
+    display: flex;
+    list-style-type: none;
+}
+.menu1 ul li , .menu2 ul li {
+    padding: 10px;
+}
+.menu2 ul {
+    display: flex;
+    list-style-type: none;
+}
