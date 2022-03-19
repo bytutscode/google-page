@@ -28,7 +28,15 @@ header a:hover {
 .square {
     width: 21px;
     height: 21px;
-    background-color: #5c5c5c;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.square div {
+    margin: 1px;
+    width: 4px;
+    height: 4px;
+    background-color: #5C5C5C;
 }
 .profilephoto img {
     width: 34px;
